@@ -5,11 +5,47 @@
 		<h2 class="title">联系我</h2>
 		<div class="info">
 			<div class="contactway">
-				<h3 class="layout">联系方式</h3>
+				<div>
+					<h3 class="layout">联系方式</h3>
+				</div>
 				
-				<p>地址</p>
-				<p>邮箱</p>
-				<p>个人网站</p>
+				<div>
+					<span>
+					<svg class="icon" >
+			    		<use xlink:href="#icon-mao2"></use>
+					</svg>
+					</span>
+					江苏省镇江市
+					
+				</div>		
+				<div>
+					<span>
+					<svg class="icon" >
+			    		<use xlink:href="#icon-dianhua"></use>
+					</svg>
+					15251833069
+				</span>
+					
+				</div>
+				<div>
+					<span>
+					<svg class="icon" >
+			    		<use xlink:href="#icon-qq"></use>
+					</svg>
+					1240627866	
+				</span>
+					
+				</div>			
+				<div>
+					<span>
+					<svg class="icon" >
+			    		<use xlink:href="#icon-youxiang"></use>
+					</svg>
+					1240627866@qq.com
+				</span>
+					
+				</div>		
+				
 			</div>
 			<div class="message">
 			<h3 class="layout">给我留言</h3>
@@ -50,6 +86,17 @@ export default {
 }
 </script>
 <style>
+	.contactway{
+		height: 335px;
+		display: flex;
+		flex-direction:column;
+		justify-content: space-between;
+		align-content: center;
+		align-items: flex-start;
+	}
+	.contactway .icon{
+		height: 30px;
+	}
 	.contactme{
 		padding:100px 0;
 		margin:0 auto;

@@ -6,31 +6,55 @@
 			  <h2 class="title">作品展示</h2>
 			  	<div>
 			  		<div class="workitem">
-						<div class="name">
+			  			<div class="name">
 							<h3>在线音乐FM</h3>
 						</div>
 						
 						<img class="img" src="../assets/myfm.png"> </img>
 						
 						<div id="discribe">
-							<h3>项目介绍:</h3>
-							<p>
-							使用原生 JS，借助 Canvas API 和动态 REM 方案（flexible.js）以及svg iconfont制作的手机画板。 
-							包含橡皮擦、一键擦除、保存图片的功能，期间主要难点在于如何确定上一个触点的位置以及消除画笔锯齿， 所有功能基本上由canvas原生API实现。
-							</p>
-							
-
-							<h3>涉及技术:</h3>	
-							
-							<p>A+b+c</p>
-						</div>
-						<div class="link">
-							<div class="button">
-								<a href="">在线预览</a>
-								<a href="">Git</a>
+							<div>
+								<h3>涉及技术:</h3>
+							</div>													
+							<div>
+								<span>
+								Html + CSS + AJAX + jQuery + JavaScript 
+								</span>
+							</div>	
+							<div><h3>项目介绍:</h3></div>
+							<div>
+								<span>
+								PC端在线音播放器乐，具备播放、暂停、动态显示歌词、调节音量等基本功能，可以通过点击相应歌曲频道的切换或选择，以及歌曲的切换。通过函数限流 处理请求重复发送。用以应对复杂场景进行性能优化。
+								</span>
 							</div>
+											
 							
-						</div>	
+						</div>
+						<div class="tags">
+							<div class="itemicon">
+								<svg class="icon" >
+			    					<use xlink:href="#icon-html"></use>
+								</svg>
+								<svg class="icon" >
+		    						<use xlink:href="#icon-css3"></use>
+								</svg>
+								<svg class="icon" >
+		    						<use xlink:href="#icon-ajax"></use>
+								</svg>
+								<svg class="icon" >
+		    						<use xlink:href="#icon-jquery-copy"></use>
+								</svg>
+								<svg class="icon" >
+		    						<use xlink:href="#icon-JS"></use>
+								</svg>
+								
+							</div>
+							<div class="link">
+								<a target="_blank" href="http://js.jirengu.com/xuqa">在线预览</a>
+								<a targrt="_blank" href="https://github.com/chenyuhero/myfm/blob/master/MyFM.html">代码</a>
+							</div>	
+						</div>
+						
 					
 					</div>
 					<div class="workitem">
@@ -41,21 +65,50 @@
 						<img class="img" src="../assets/News.png"> </img>
 						
 						<div id="discribe">
-							<h3>项目介绍:</h3>
-							<p>
-							使用原生 JS，借助 Canvas API 和动态 REM 方案（flexible.js）以及svg iconfont制作的手机画板。 
-							包含橡皮擦、一键擦除、保存图片的功能，期间主要难点在于如何确定上一个触点的位置以及消除画笔锯齿， 所有功能基本上由canvas原生API实现。
-							</p>
+							<div>
+								<h3>涉及技术:</h3>
+							</div>													
+							<div>
+								<span>
+									Html + CSS + AJAX + jQuery + JavaScript + Flex
+								</span>
+							</div>	
+							<div><h3>项目介绍:</h3></div>
+							<div>
+								<span>
+								用瀑布流的布局方法，将从新浪新闻api获取到的数据呈现到页面中，使用原生JS实现懒加载、自动加载、预加载，使用媒体查询、Flex 布局构建新闻页面。
+								</span>
+							</div>
+											
 							
-
-							<h3>涉及技术:</h3>	
-							
-							<p>A+b+c</p>
 						</div>
-						<div class="link">
-							<a href="">在线预览</a>
-							<a href="">Git</a>
-						</div>	
+						<div class="tags">
+							<div class="itemicon">
+								<svg class="icon" >
+			    					<use xlink:href="#icon-html"></use>
+								</svg>
+								<svg class="icon" >
+		    						<use xlink:href="#icon-css3"></use>
+								</svg>
+								<svg class="icon" >
+		    						<use xlink:href="#icon-ajax"></use>
+								</svg>
+								<svg class="icon" >
+		    						<use xlink:href="#icon-jquery-copy"></use>
+								</svg>
+								<svg class="icon" >
+		    						<use xlink:href="#icon-JS"></use>
+								</svg>
+								<svg class="icon" >
+		    						<use xlink:href="#icon-flexbianjiqi"></use>
+								</svg>
+							</div>
+							<div class="link">
+								<a target="_blank" href="https://chenyuhero.github.io/mynews/mynews.html">在线预览</a>
+								<a targrt="_blank" href="https://github.com/chenyuhero/mynews/blob/master/mynews.html">代码</a>
+							</div>	
+						</div>
+						
 					
 					</div>
 					<div class="workitem">
@@ -65,47 +118,154 @@
 						
 						<img class="img" src="../assets/todo.png"> </img>
 						
-						<div id="discribe">
-							<h3>项目介绍:</h3>
-							<p>
-							使用原生 JS，借助 Canvas API 和动态 REM 方案（flexible.js）以及svg iconfont制作的手机画板。 
-							包含橡皮擦、一键擦除、保存图片的功能，期间主要难点在于如何确定上一个触点的位置以及消除画笔锯齿， 所有功能基本上由canvas原生API实现。
-							</p>
+							<div id="discribe">
+							<div>
+								<h3>涉及技术:</h3>
+							</div>													
+							<div>
+								<span>
+								Vue + Vue-cli  + Sass + LeanCloud + ES6
+								</span>
+							</div>	
+							<div><h3>项目介绍:</h3></div>
+							<div>
+								<span>
+								PC端在线音播放器乐，具备播放、暂停、动态显示歌词、调节音量等基本功能，可以通过点击相应歌曲频道的切换或选择，以及歌曲的切换。通过函数限流 处理请求重复发送。用以应对复杂场景进行性能优化。
+								</span>
+							</div>
+											
 							
-
-							<h3>涉及技术:</h3>	
-							
-							<p>A+b+c</p>
 						</div>
-						<div class="link">
-							<a href="">在线预览</a>
-							<a href="">Git</a>
-						</div>	
+						<div class="tags">
+							<div class="itemicon">
+								<svg class="icon" >
+		    						<use xlink:href="#icon-vuejs"></use>
+								</svg>
+								<svg class="icon" >
+		    						<use xlink:href="#icon-webpack"></use>
+								</svg>
+								<svg class="icon" >
+		    						<use xlink:href="#icon-sass"></use>
+								</svg>
+								<svg class="icon" >
+		    						<use xlink:href="#icon-fuwuqi"></use>
+								</svg>
+
+								<svg class="icon" >
+		    						<use xlink:href="#icon-tubiaozhizuomoban"></use>
+								</svg>
+								
+							</div>
+							<div class="link">
+								<a target="_blank" href="https://chenyuhero.github.io/mytodo/dist/">在线预览</a>
+								<a targrt="_blank" href="https://github.com/chenyuhero/mytodo">代码</a>
+							</div>	
+						</div>
+						
 					
 					</div>
 					<div class="workitem">
 						<div class="name">
-							<h3>Todolist</h3>
+							<h3>在线简历编辑器</h3>
 						</div>
 						
-						<img class="img" src="../assets/todo.png"> </img>
+						<img class="img" src="../assets/resumer.png"> </img>
 						
 						<div id="discribe">
-							<h3>项目介绍:</h3>
-							<p>
-							使用原生 JS，借助 Canvas API 和动态 REM 方案（flexible.js）以及svg iconfont制作的手机画板。 
-							包含橡皮擦、一键擦除、保存图片的功能，期间主要难点在于如何确定上一个触点的位置以及消除画笔锯齿， 所有功能基本上由canvas原生API实现。
-							</p>
+							<div>
+								<h3>涉及技术:</h3>
+							</div>													
+							<div>
+								<span>
+								Vue + Vue-cli  + Sass + LeanCloud + ES6
+								</span>
+							</div>	
+							<div><h3>项目介绍:</h3></div>
+							<div>
+								<span>
+								PC端在线音播放器乐，具备播放、暂停、动态显示歌词、调节音量等基本功能，可以通过点击相应歌曲频道的切换或选择，以及歌曲的切换。通过函数限流 处理请求重复发送。用以应对复杂场景进行性能优化。
+								</span>
+							</div>
+											
 							
-
-							<h3>涉及技术:</h3>	
-							
-							<p>A+b+c</p>
 						</div>
-						<div class="link">
-							<a href="">在线预览</a>
-							<a href="">Git</a>
-						</div>	
+						<div class="tags">
+							<div class="itemicon">
+								<svg class="icon" >
+		    						<use xlink:href="#icon-vuejs"></use>
+								</svg>
+								<svg class="icon" >
+		    						<use xlink:href="#icon-webpack"></use>
+								</svg>
+								<svg class="icon" >
+		    						<use xlink:href="#icon-sass"></use>
+								</svg>
+								<svg class="icon" >
+		    						<use xlink:href="#icon-fuwuqi"></use>
+								</svg>
+
+								<svg class="icon" >
+		    						<use xlink:href="#icon-tubiaozhizuomoban"></use>
+								</svg>
+							</div>
+							<div class="link">
+								<a target="_blank" href="https://chenyuhero.github.io/resumer/dist/">在线预览</a>
+								<a targrt="_blank" href="https://github.com/chenyuhero/resumer">代码</a>
+							</div>	
+						</div>
+						
+					
+					</div>
+					<div class="workitem">
+						<div class="name">
+							<h3>豆瓣app</h3>
+						</div>
+						
+						<img class="appimg"  src="../assets/douban.png"> </img>
+						
+						<div id="discribe">
+							<div>
+								<h3>涉及技术:</h3>
+							</div>													
+							<div>
+								<span>
+								Html + CSS + AJAX + jQuery + ES6 + Flex
+								</span>
+							</div>	
+							<div><h3>项目介绍:</h3></div>
+							<div>
+								<span>
+								PC端在线音播放器乐，具备播放、暂停、动态显示歌词、调节音量等基本功能，可以通过点击相应歌曲频道的切换或选择，以及歌曲的切换。通过函数限流 处理请求重复发送。用以应对复杂场景进行性能优化。
+								</span>
+							</div>
+											
+							
+						</div>
+						<div class="tags">
+							<div class="itemicon">
+								<svg class="icon" >
+			    					<use xlink:href="#icon-html"></use>
+								</svg>
+								<svg class="icon" >
+		    						<use xlink:href="#icon-css3"></use>
+								</svg>
+								<svg class="icon" >
+		    						<use xlink:href="#icon-ajax"></use>
+								</svg>
+								<svg class="icon" >
+		    						<use xlink:href="#icon-tubiaozhizuomoban"></use>
+								</svg>
+								<svg class="icon" >
+		    						<use xlink:href="#icon-flexbianjiqi"></use>
+								</svg>
+							</div>
+							<div class="link">
+								<a target="_blank" href="">手机预览</a>
+								<a target="_blank" href="https://chenyuhero.github.io/frontendcode/project/movie/movie.html">PC预览</a>
+								<a targrt="_blank" href="https://github.com/chenyuhero/frontendcode/blob/master/project/movie/movie.html">代码</a>
+							</div>	
+						</div>
+						
 					
 					</div>
 
@@ -134,35 +294,52 @@
 		margin:100px auto;
 		width:1280px;
 		display:inline-block;
+		background: rgb(255,255,255);
 	}
 	.workitem{
-		background: rgb(255,255,255);
-		border: 1px solid rgb(228,228,228);
+		border: 2px solid rgb(228,228,228);
+		width: 840px;
 		margin: 32px auto;
-		box-shadow: 5px 5px 5px #8888A4;
 	}
 	#discribe {
+		border-top: 1px solid rgb(228,228,228);
 		text-align: left;
 		display:inline-block; 
 		padding: 16px 16px;
 		font-size: 18px;
 	}
-	.link{
-		border: 1px solid rgb(228,228,228);
+	#discribe > div{
+		margin: 10px auto;
+	}
+	.tags{
+		display: flex;
+		border-top: 1px solid rgb(228,228,228);
 		height: 50px;
-
+		justify-content: space-between;
+	}
+	.itemicon{
+		display: flex;
+		align-content: center;
+	}
+	.itemicon svg{
+		margin: 0 8px; 
+		width: 30px;
+	}
+	.link{
+		display: flex;
+		align-content: center;
+	}
+	.link a:visited {
+		color: black;
 	}
 	.link a{
 		text-decoration: none;
 		border: 1px solid rgb(238,238,238);
 		border-radius:5px;  
-		height: 30px;
+		height: 35px;
 		width: 75px;
 		padding: 5px 5px;
-		display: inline-block;
-		float: right;
-		margin: 10px 20px;
-
+		margin: 8px 8px;
 	}
 	.name{
 		height: 50px;
