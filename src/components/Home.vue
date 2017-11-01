@@ -46,8 +46,18 @@
 	margin-top:150px;
 	
 	}
-	.type >h1{
-		 width:100%;
-		animation: type 2s steps(50, end) forwards;
+	.type h1 {
+		font: bold 200% Consolas, Monaco, monospace;
+		border-right: .1em solid;
+		width: 16.5em; /* fallback */
+		width: 30ch; /* # of chars */
+		margin: 2em 1em;
+		white-space: nowrap;
+		overflow: hidden;
+		animation: typing 20s steps(30, end), /* # of steps = # of chars */
+					blink-caret .5s step-end infinite alternate;
 	}
+	@keyframes typing { from { width: 0; } }
+	@keyframes blink-caret { 50% { border-color: transparent; } }
+	
 </style>
