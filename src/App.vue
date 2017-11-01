@@ -1,7 +1,9 @@
 <template>
   <div id="app">
-      
-    <Navibar class="navibar"/>
+     <div class="navibar">
+        <Navibar /> 
+     </div> 
+    
     <main>
      <Home class="home"/>
      <About class="about"/>
@@ -52,7 +54,6 @@ export default {
 
 <style>
 .icon {
-      
      width: 3.5em; height: 3.5em;
      vertical-align: -0.15em;
      fill: currentColor;
@@ -67,6 +68,8 @@ export default {
   
 }
 .navibar{
+  width: 100%;
+  position: fixed;
   background:rgb(60,174,162);
   height:70px;
 }

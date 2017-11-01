@@ -14,11 +14,12 @@
 	</div>	
 </template>
 
-<style lang="scss">
+<style >
 #navbar{
-	width:1280px;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
 	color:white;
-	display:inline-block;
 }
 .navheader{
  float:left;
