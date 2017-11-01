@@ -9,10 +9,10 @@
      <About class="about"/>
      <Work class="work"/>
      <Contact class="contact"/>
-     <Footer class="footer"/>
+     <Foot class="footer"/>
 
     </main>
-    <div id="gotop">
+    <div v-if="seen" id="gotop">
       <svg class="icon" v-on:click="gotop">
              <use xlink:href="#icon-huojian"></use>
       </svg>
@@ -28,28 +28,43 @@ import Home from './components/Home'
 import Work from './components/Work'
 import About from './components/About'
 import Contact from './components/Contact'
-import Footer from './components/Footer'
+import Foot from './components/Foot'
 
 export default {
   name: 'app',
+  data(){
+    return {
+      scroll: '',
+      seen : false
+    }
+  },
   components: {
-  
     Navibar,
     Home,
     Work,
     About,
     Contact,
-    Footer
+    Foot
   },
   methods:{
     gotop :function(){
-      console.log(document.html.scrollTop)
-     
-      console.log('飞天')
+      document.documentElement.scrollTop = 0
+    },
+    menu() {
+    this.scroll = document.documentElement.scrollTop;
+      if(this.scroll>600){
+        this.seen=true;
+      }else{
+        this.seen=false;
+      }
     }
+    },
+    mounted() {
+      window.addEventListener('scroll', this.menu)
+    },
 
   }
-}
+
 </script>
 
 <style>
@@ -89,7 +104,7 @@ export default {
      
      background:rgb(60,174,162);
   }
-.footer{
+.foot{
   padding:30px 0;
   background:rgb(256,256,247);
 }

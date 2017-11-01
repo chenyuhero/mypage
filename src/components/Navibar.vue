@@ -4,16 +4,37 @@
 		<div class="navheader">我</div>
 		<div class="navlist">
 			<ul>
-				<li>主页</li>
-				<li>关于</li>
-				<li>作品</li>
-				<li>联系</li>
+				<li v-on:click="gotop">主页</li>
+				<li v-on:click="goAbout">关于</li>
+				<li v-on:click="goWork">作品</li>
+				<li v-on:click="goContanct">联系</li>
 			</ul>
 		</div>
 	</div>
 	</div>	
 </template>
 
+<script type="text/javascript">
+	export default{
+		 methods:{
+    		gotop :function(){
+      			
+     			document.documentElement.scrollTop = 0
+    		},    		
+    		goAbout:function(){
+    			document.documentElement.scrollTop = 600
+    		},
+    		goWork:function(){
+    			document.documentElement.scrollTop = 1038
+    		},
+    		goContanct:function(){
+    			document.documentElement.scrollTop = 5750
+    		}
+
+
+ 		 }
+}
+</script>
 <style >
 #navbar{
 	width: 100%;
