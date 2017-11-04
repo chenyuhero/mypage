@@ -4,7 +4,7 @@
 		
 		<div class="download">
 			
-			<button><a href="./myResume.pdf">下载我的简历</a></button>
+			<button><a href="./myResume.pdf" download="">下载我的简历</a></button>
 
 		</div>
 		<div class="anno">
