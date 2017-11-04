@@ -10,7 +10,7 @@
 							<h3>在线音乐FM</h3>
 						</div>
 						
-						<img class="img" src="/dist/static/myfm.png"> </img>
+						<img class="img" src="../assets/myfm.png"> </img>
 						
 						<div id="discribe">
 							<div>
