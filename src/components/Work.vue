@@ -262,8 +262,7 @@
 								</svg>
 							</div>
 							<div class="link">
-								<a target="_blank" href="../assets/code.png">手机预览</a>
-								<a target="_blank" href="https://chenyuhero.github.io/frontendcode/project/movie/movie.html">PC预览</a>
+								<a target="_blank" href="https://chenyuhero.github.io/frontendcode/project/movie/movie.html">预览</a>
 								<a targrt="_blank" href="https://github.com/chenyuhero/frontendcode/blob/master/project/movie/movie.html">代码</a>
 							</div>	
 						</div>
