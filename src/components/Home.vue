@@ -54,7 +54,7 @@
 		margin: 2em 1em;
 		white-space: nowrap;
 		overflow: hidden;
-		animation: typing 20s steps(30, end), /* # of steps = # of chars */
+		animation: typing 10s steps(30, end), /* # of steps = # of chars */
 					blink-caret .5s step-end infinite alternate;
 	}
 	@keyframes typing { from { width: 0; } }

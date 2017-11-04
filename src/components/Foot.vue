@@ -4,23 +4,23 @@
 		
 		<div class="download">
 			
-			<button>下载我的简历</button>
+			<button><a href="./myResume.pdf">下载我的简历</a></button>
 
 		</div>
 		<div class="anno">
 			<div class="power">Copyright © My Website 2017</div>
 			<div class="logo">
-				<a>
+				<a href="https://weibo.com/2022187485/profile?topnav=1&wvr=6&is_all=1">
 				<svg class="icon" >
 			    <use xlink:href="#icon-weibo"></use>
 				</svg>
 				</a>
-				<a>
+				<a href="https://github.com/chenyuhero">
 				<svg class="icon" >
 			    	<use xlink:href="#icon-git"></use>
 				</svg>
 				</a>
-				<a>
+				<a href="https://twitter.com/chenyuhero">
 				<svg class="icon" >
 			   		 <use xlink:href="#icon-twitter"></use>
 				</svg>
@@ -75,7 +75,9 @@
 		background:rgb(241,196,15);
 		font-size:20px;
 	}
-
+	.download> button >a{
+		text-decoration: none;
+	}
 	.download> button:hover{
 	 color:white;
 	}
