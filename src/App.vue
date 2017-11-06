@@ -74,9 +74,12 @@ export default {
      fill: currentColor;
      overflow: hidden;
   }
- main{
-  width: 1280px;
- } 
+  @media screen and (max-width: 1080px) {
+    main{
+    width: 1280px;
+    } 
+}
+ 
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
