@@ -74,6 +74,9 @@ export default {
      fill: currentColor;
      overflow: hidden;
   }
+ main{
+  width: 1280px;
+ } 
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -101,7 +104,7 @@ export default {
   background:rgb(247,247,247);
   }
   .contact{
-     
+     width:100%;
      background:rgb(60,174,162);
   }
 .foot{
