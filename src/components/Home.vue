@@ -50,7 +50,7 @@
 		font: bold 200% Consolas, Monaco, monospace;
 		border-right: .1em solid;
 		width: 16.5em; /* fallback */
-		width: 30ch; /* # of chars */
+		width: 25ch; /* # of chars */
 		margin: 2em 1em;
 		white-space: nowrap;
 		overflow: hidden;

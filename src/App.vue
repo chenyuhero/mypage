@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-     <div class="navibar">
+     <div class="navibar ">
         <Navibar /> 
      </div> 
     
@@ -29,6 +29,8 @@ import Work from './components/Work'
 import About from './components/About'
 import Contact from './components/Contact'
 import Foot from './components/Foot'
+
+
 
 export default {
   name: 'app',
@@ -68,6 +70,7 @@ export default {
 </script>
 
 <style>
+
 .icon {
      width: 3.5em; height: 3.5em;
      vertical-align: -0.15em;
@@ -88,6 +91,12 @@ export default {
   color: #2c3e50;
   
 }
+@media screen and (max-width: 600px){
+  .navibar{
+    display: none;
+  }
+}
+
 .navibar{
   width: 100%;
   position: fixed;
@@ -106,7 +115,7 @@ export default {
   width:100%;
   background:rgb(247,247,247);
   }
-  .contact{
+.contact{
      width:100%;
      background:rgb(60,174,162);
   }

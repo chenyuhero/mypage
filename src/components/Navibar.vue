@@ -1,7 +1,7 @@
 <template>
 	<div >
-	<div id="navbar">
-		<div class="navheader">我</div>
+	<div id="navbar1">
+		<div class="navheader clearfix">我</div>
 		<div class="navlist">
 			<ul>
 				<li v-on:click="gotop">主页</li>
@@ -35,12 +35,12 @@
  		 }
 }
 </script>
-<style >
-#navbar{
-	width: 100%;
-	display: flex;
-	justify-content: space-around;
-	color:white;
+<style  >
+
+#navbar1{
+display: flex;
+justify-content: space-around;
+color:white;
 }
 .navheader{
  float:left;
