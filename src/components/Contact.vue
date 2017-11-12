@@ -85,51 +85,62 @@ export default {
   }
 }
 </script>
-<style>
-	.contactway{
+<style lang = "scss">
+	
+	.contactme{
+		padding:100px 0;
+		margin:0 auto;
+		width:1280px;
+	    color:white;
+	    .title{
+		padding:30px auto;
+		}
+		.info{
+	 	display:flex;
+	 	justify-content:space-between;
+	 	}
+	 	.contactway{
 		height: 335px;
 		display: flex;
 		flex-direction:column;
 		justify-content: space-between;
 		align-content: center;
 		align-items: flex-start;
-	}
-	.contactway .icon{
-		height: 30px;
-	}
-	.contactme{
-		padding:100px 0;
-		margin:0 auto;
-		width:1280px;
-	    color:white;
-	}
-	.layout{
-	 margin:16px 8px;
+			.layout{
+		 	margin:16px 8px;
+			}
+			& .icon{
+				fill : white;
+				margin: 2px 15px;
+				width: 25px;
+				height: 25px;
+				color: white;
+				}
+		}
+		.message {
+	 	width:450px;
+	 		.layout{
+		 	margin:16px 8px;
+			}
+		    & >button{
+			 margin-top:16px;
+			 height:50px;
+			 width:400px;
+			 border-radius:5px;
+			 border:2px solid #292929;
+			 background:rgb(60,174,162);
+			}
+			 & >button:hover{
+			 border:2px solid white;
+			}
+	  }
+	
 		
-	    
-	}
-	.title{
-		padding:30px auto;
 	}
 	
-	 .info{
-	 	display:flex;
-	 	justify-content:space-between;
-	 }
+	
+	
 	 
-	 .message {
-	 	
-	 	width:450px;
-	 }
-	 .message >button{
-	 margin-top:16px;
-	 height:50px;
-	 width:400px;
-	 border-radius:5px;
-	 border:2px solid #292929;
-	 background:rgb(60,174,162);
-	 }
-	 .message >button:hover{
-	 border:2px solid white;
-	 }
+	 
+	
 </style>

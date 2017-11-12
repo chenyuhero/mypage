@@ -82,22 +82,23 @@
 
 </template>
 
-<style>
+<style lang = 'scss'>
 	.title{
 		margin:30px auto;
 	}
 	.skills ul li{
-	border-radius:15px;
-	border:1px solid rgb(238,238,238);
-	display:inline-block;
-	margin:20px 10px;
-	padding:10px 15px;
-	font-size:20px;
-	}
-	.skills .icon{
+		border-radius:15px;
+		border:1px solid rgb(238,238,238);
+		display:inline-block;
+		margin:20px 10px;
+		padding:10px 15px;
+		font-size:20px;
+		& .icon{
 		width: 1.0em;
 		height: 1.0em;
+		}
 	}
+	
 
 
 </style>

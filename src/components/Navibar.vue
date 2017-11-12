@@ -35,30 +35,32 @@
  		 }
 }
 </script>
-<style  >
+<style lang = "scss" >
 
 #navbar1{
 display: flex;
 justify-content: space-around;
 color:white;
-}
-.navheader{
- float:left;
- margin:20px 0;
- font-size:24px;
-}
-.navlist{
-float:right;
-}
-.navlist>ul>li{
-display:inline-block;
-margin:25px 20px;
-font-size:16px;
-}
+	.navheader{
+		 float:left;
+		 margin:20px 0;
+		 font-size:24px;
+	}
+	.navlist{
+		float:right;
+		&>ul>li{
+			display:inline-block;
+			margin:25px 20px;
+			font-size:16px;
+		}
 	
-.navlist>ul>li:hover{
-	cursor:pointer;
-}	
-	
+		&>ul>li:hover{
+			cursor:pointer;
+		}	
+	}
+
+}
+
+
 
 </style>

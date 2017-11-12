@@ -287,70 +287,77 @@
 	}
 	
 </script>
-<style scoped>
-	.title{
-		margin-top:30px;
-	}
+<style scoped lang = "scss">
+	
 	.show{
 		margin:100px auto;
 		width:1280px;
 		display:inline-block;
 		background: rgb(255,255,255);
-	}
-	.workitem{
+		.title{
+			margin-top:30px;
+		}
+		.workitem{
 		border: 2px solid rgb(228,228,228);
 		width: 840px;
 		margin: 32px auto;
-	}
-	#discribe {
-		border-top: 1px solid rgb(228,228,228);
-		text-align: left;
-		display:inline-block; 
-		padding: 16px 16px;
-		font-size: 18px;
-	}
-	#discribe > div{
-		margin: 10px auto;
-	}
-	.tags{
-		display: flex;
-		border-top: 1px solid rgb(228,228,228);
-		height: 50px;
-		justify-content: space-between;
-	}
-	.itemicon{
-		display: flex;
-		align-content: center;
-	}
-	.itemicon svg{
-		margin: 0 8px; 
-		width: 30px;
-	}
-	.link{
-		display: flex;
-		align-content: center;
-	}
-	.link a:visited {
-		color: black;
-	}
-	.link a{
-		text-decoration: none;
-		border: 1px solid rgb(238,238,238);
-		border-radius:5px;  
-		height: 35px;
-		width: 75px;
-		padding: 5px 5px;
-		margin: 8px 8px;
-	}
-	.name{
-		height: 50px;
-	}
-	.name >h3{
-		display: block;
-		padding: 15px 0;
-	}
-	.img{
-		width: 800px;
+			.name{
+			height: 50px;
+				& >h3{
+					display: block;
+					padding: 15px 0;
+				}
+			}
+			.img{
+				width: 800px;
+			}
+			#discribe {
+				border-top: 1px solid rgb(228,228,228);
+				text-align: left;
+				display:inline-block; 
+				padding: 16px 16px;
+				font-size: 18px;
+				& > div{
+				margin: 10px auto;
+				}
+			}
+			.tags{
+				display: flex;
+				border-top: 1px solid rgb(228,228,228);
+				height: 50px;
+				justify-content: space-between;
+				.itemicon{
+					display: flex;
+					align-content: center;
+					& svg{
+					margin: 0 8px; 
+					width: 30px;
+					}
+				}
+
+				.link{
+					display: flex;
+					align-content: center;
+					& a{
+					text-decoration: none;
+					border: 1px solid rgb(238,238,238);
+					border-radius:5px;  
+					height: 35px;
+					width: 75px;
+					padding: 5px 5px;
+					margin: 8px 8px;
+						& :visited {
+						color: black;
+						}
+			 		}
+				}
+			
+			}
+		
+		}
 
 	}
+	
+
+	
 </style>

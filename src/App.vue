@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-     <div class="navibar ">
+     <div class="navibar">
         <Navibar /> 
      </div> 
     
@@ -69,69 +69,74 @@ export default {
 
 </script>
 
-<style>
-
-.icon {
-     width: 3.5em; height: 3.5em;
-     vertical-align: -0.15em;
-     fill: currentColor;
-     overflow: hidden;
-  }
-  @media screen and (max-width: 1080px) {
-    main{
-    width: 1280px;
-    } 
+<style lang = "scss" scoped>
+body,html{
+  width: 100%;
 }
- 
+
+
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  
-}
-@media screen and (max-width: 600px){
-  .navibar{
-    display: none;
-  }
+  width: 100%;
+   .navibar{
+      width: 100%;
+      position: fixed;
+      background:rgb(60,174,162);
+      height:70px;
+    }  
+     @media screen and (max-width: 800px) {
+      main{
+       width: 100%;
+      }
+      #gotop{
+        display: none;
+      } 
+    }
+    main{
+       
+       .home{
+          background:rgb(60,174,162);
+          height:580px;
+        }
+        .about{
+          width:1280px;
+          margin:100px auto;
+       }
+        .work{
+        width:100%;
+        background:rgb(247,247,247);
+       }
+        .contact{
+         width:100%;
+         background:rgb(60,174,162);
+      }
+        .foot{
+        padding:30px 0;
+        background:rgb(256,256,247);
+      }
+
+    }
+    #gotop{
+       & >.icon {
+         width: 3.5em; height: 3.5em;
+         vertical-align: -0.15em;
+         overflow: hidden;
+         position: fixed;
+         bottom:60px;
+         right: 50px; 
+         cursor: pointer;
+         fill : #ddd;
+        }
+
+        i:hover{
+        opacity: 0.8;
+        }
+    }
 }
 
-.navibar{
-  width: 100%;
-  position: fixed;
-  background:rgb(60,174,162);
-  height:70px;
-}
-.home{
-  background:rgb(60,174,162);
-  height:580px;
-}
-.about{
-  width:1280px;
-  margin:100px auto;
- }
-.work{
-  width:100%;
-  background:rgb(247,247,247);
-  }
-.contact{
-     width:100%;
-     background:rgb(60,174,162);
-  }
-.foot{
-  padding:30px 0;
-  background:rgb(256,256,247);
-}
-#gotop svg{
-    color: rgb(181,181,181);
-    position: fixed;
-    bottom:60px;
-    right: 50px; 
-    cursor: pointer;
-  }
-   #gotop i:hover{
-    opacity: 0.8;
-   }
 
 </style>
