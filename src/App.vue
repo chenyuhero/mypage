@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-     <div class="navibar">
+     <div class="navibar clearfix">
         <Navibar /> 
      </div> 
     
@@ -70,9 +70,14 @@ export default {
 </script>
 
 <style lang = "scss" scoped>
-body,html{
-  width: 100%;
-}
+
+ @media screen and (max-width: 600px) {
+    
+  }
+
+
+
+
 
 
 #app {
@@ -87,18 +92,9 @@ body,html{
       position: fixed;
       background:rgb(60,174,162);
       height:70px;
-    }  
-     @media screen and (max-width: 800px) {
-      main{
-       width: 100%;
-      }
-      #gotop{
-        display: none;
-      } 
-    }
+    }     
     main{
-       
-       .home{
+        .home{
           background:rgb(60,174,162);
           height:580px;
         }

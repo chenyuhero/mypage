@@ -1,7 +1,10 @@
 <template>
 	<div >
 	<div id="navbar1">
-		<div class="navheader clearfix">我</div>
+		<div class="navheader clearfix">
+			<svg class="icon" >
+		    		<use xlink:href="#icon-home"></use>
+				</svg></div>
 		<div class="navlist">
 			<ul>
 				<li v-on:click="gotop">主页</li>
@@ -37,6 +40,7 @@
 </script>
 <style lang = "scss" >
 
+
 #navbar1{
 display: flex;
 justify-content: space-around;
@@ -45,6 +49,10 @@ color:white;
 		 float:left;
 		 margin:20px 0;
 		 font-size:24px;
+		 .icon{
+		 	fill: #ddd;
+		 	height: 25px;
+		 }
 	}
 	.navlist{
 		float:right;

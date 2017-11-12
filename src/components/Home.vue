@@ -21,6 +21,8 @@
 	}
 </script>
 <style lang = "scss" >
+
+
 		
 	#home{
 	width:1280px;
@@ -42,12 +44,12 @@
 			 h1 {
 			font: bold 200% Consolas, Monaco, monospace;
 			border-right: .1em solid;
-			width: 16.5em; /* fallback */
-			width: 25ch; /* # of chars */
+			width: 16.5em; 
+			width: 25ch; 
 			margin: 2em 1em;
 			white-space: nowrap;
 			overflow: hidden;
-			animation: type 10s steps(30, end), /* # of steps = # of chars */
+			animation: type 10s steps(30, end), 
 						blink-caret .5s step-end infinite alternate;
 			}
 			@keyframes type{
@@ -58,7 +60,6 @@
 	}
 	
 	
-	
-	
+		
 	
 </style>

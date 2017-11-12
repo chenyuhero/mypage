@@ -83,6 +83,7 @@
 </template>
 
 <style lang = 'scss'>
+
 	.title{
 		margin:30px auto;
 	}
@@ -98,7 +99,7 @@
 		height: 1.0em;
 		}
 	}
-	
+
 
 
 </style>
