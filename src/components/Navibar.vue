@@ -1,7 +1,7 @@
 <template>
 	<div >
 	<div id="navbar1">
-		<div class="navheader clearfix">
+		<div class="navheader ">
 			<svg class="icon" >
 		    		<use xlink:href="#icon-home"></use>
 				</svg></div>

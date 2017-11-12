@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-     <div class="navibar clearfix">
+     <div class="navibar ">
         <Navibar /> 
      </div> 
     
@@ -76,17 +76,13 @@ export default {
   }
 
 
-
-
-
-
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  width: 100%;
+  width: 1920px;
    .navibar{
       width: 100%;
       position: fixed;
@@ -94,6 +90,7 @@ export default {
       height:70px;
     }     
     main{
+        width: 100%;
         .home{
           background:rgb(60,174,162);
           height:580px;
