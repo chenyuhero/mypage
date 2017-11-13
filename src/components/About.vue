@@ -84,6 +84,20 @@
 
 <style lang = 'scss'>
 
+	@media screen and (max-width: 600px) {
+    	.skills ul li{
+		border-radius:15px;
+		border:1px solid rgb(238,238,238);
+		display:inline-block;
+		margin:20px 10px;
+		padding:10px 15px;
+		font-size:50px;
+		& .icon{
+		width: 1.0em;
+		height: 1.0em;
+		}
+	}
+  }
 	.title{
 		margin:30px auto;
 	}
