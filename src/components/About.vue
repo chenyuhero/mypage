@@ -25,15 +25,15 @@
 				
 				<li>
 				<svg class="icon" >
-		    		<use xlink:href="#icon-nodejs"></use>
+		    		<use xlink:href="#icon-ps"></use>
 				</svg>	
-				Node.js
+				PS
 				</li>
 				<li>
-				<svg class="icon " >
-		    		<use xlink:href="#icon-PS"></use>
-				</svg>		
-				PS</li>
+				<svg class="icon" >
+		    		<use xlink:href="#icon-nodejs"></use>
+				</svg>	
+				Node.js</li>
 				
 				<li>
 				<svg class="icon" >
